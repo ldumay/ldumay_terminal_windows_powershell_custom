@@ -1,9 +1,18 @@
-# LDumay - Custom Terminal & Powershell on Windows and Mac OS
+# LDumay - Custom Terminal & Powershell on Windows (and Mac OS - en cours)
  
 ### 1 - Oh My Posh
 
-Source [https://www.youtube.com/watch?v=FvHNfpH8fxM](https://www.youtube.com/watch?v=FvHNfpH8fxM)
+Source [YouTube - Make Windows PowerShell look Awesome with Themes! | Using Oh My Posh]
+(https://www.youtube.com/watch?v=FvHNfpH8fxM)
 Site officiel : [https://ohmyposh.dev/](https://ohmyposh.dev/)
+
+#### 1.1 - Installation des Fonts
+
+Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)
+
+> Si non, aller sur la partie Fonts de [Oh My Posh](https://ohmyposh.dev/docs/installation/fonts)
+
+Puis configure la police du terminal pour qu'il utilise la police **Meslo LGL NF**.
 
 #### 1.1 - Pré-requis :
 
@@ -14,7 +23,7 @@ Site officiel : [https://ohmyposh.dev/](https://ohmyposh.dev/)
 Ouvrez une invite PowerShell et exécutez la commande suivante :
 
 ```
-scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
 Cela installe quelques éléments :
@@ -24,7 +33,47 @@ Cela installe quelques éléments :
 
 Pour que le `PATH` rechargement soit effectué, un redémarrage de votre terminal est conseillé.
 
-#### 1.2 - Ajouter un thème à Oh My Posh
+#### 1.3 - Vérifier la présences des thèmes
+
+```
+~\AppData\Local\Programs\oh-my-posh\themes
+
+OU
+
+C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes
+```
+
+#### 1.4 - Préparer le lien avec le thème
+
+```
+~\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json
+
+OU
+
+C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json
+```
+
+#### 1.4 - Activer un thème
+
+Ouvrir le `$PROFILE` de votre terminal :
+
+```
+notepad $PROFILE
+```
+
+Ajouter dedans :
+
+```
+oh-my-posh --init --shell pwsh --config ~\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json | Invoke-Expression
+```
+
+Sauvegarder et fermer **notepad**.
+
+Relancer ensuite le terminal.
+
+Et voilà ;)
+
+#### 1.6 - Installer de nouveau thèmes
 
 Pour ajouter un thème, faite la commande `oh-my-posh font install <theme>`.
 
@@ -33,6 +82,8 @@ Exemple :
 ```
 oh-my-posh font install sim-web
 ```
+
+#### 1.6 - Quelques thèmes sympa
 
 Quelques sympa :
 
