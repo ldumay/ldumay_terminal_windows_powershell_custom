@@ -1,4 +1,4 @@
-# ldumay_terminal_windows_powershell_custom
+# LDumay - Custom Terminal & Powershell on Windows and Mac OS
  
 ### 1 - Oh My Posh
 
@@ -24,7 +24,7 @@ Cela installe quelques éléments :
 
 Pour que le `PATH` rechargement soit effectué, un redémarrage de votre terminal est conseillé.
 
-#### 1.2 - Ajuter un thème à Oh My Posh
+#### 1.2 - Ajouter un thème à Oh My Posh
 
 Pour ajouter un thème, faite la commande `oh-my-posh font install <theme>`.
 
@@ -37,10 +37,10 @@ oh-my-posh font install sim-web
 Quelques sympa :
 
 - [blue-owl](https://ohmyposh.dev/docs/themes#blue-owl)
-![blue-owl](https://ohmyposh.dev/assets/images/blue-owl-ee4fe94f97b271d66611eac650791ae2.png)
+![blue-owl](https://ohmyposh.dev/assets/images/blue-owl-e9cb9ea32715f6a4e53f9a4f102680eb.png)
 
 - [blueish](https://ohmyposh.dev/docs/themes#blueish)
-![blueish](https://ohmyposh.dev/assets/images/blueish-12c7f06b59801a09b7cfa36c3d85011a.png)
+![blueish](https://ohmyposh.dev/assets/images/blueish-4e0990e623244c530361428348a4b8e0.png)
 
 - [bubbles](https://ohmyposh.dev/docs/themes#bubbles)
 ![bubbles](https://ohmyposh.dev/assets/images/bubbles-ba044855a85c98c6026a68243fc389ca.png)
@@ -52,28 +52,28 @@ Quelques sympa :
 ![bubblesline](https://ohmyposh.dev/assets/images/bubblesline-2db10ee8720ffc8e367539c3626d0a4c.png)
 
 - [catppuccin](https://ohmyposh.dev/docs/themes#catppuccin)
-![catppuccin](https://ohmyposh.dev/assets/images/catppuccin-d2efc8c07178308a62abbc4405f5ae5c.png)
+![catppuccin](https://ohmyposh.dev/assets/images/catppuccin-3ff38a555307bb444a79ac77377e9b86.png)
 
 - [cert](https://ohmyposh.dev/docs/themes#cert)
-![cert](https://ohmyposh.dev/assets/images/cert-3ceb4e9ce324f06ef7d3e9b35a832ca5.png)
+![cert](https://ohmyposh.dev/assets/images/cert-7019406225d324121e953715adc408d4.png)
 
 - [chips](https://ohmyposh.dev/docs/themes#chips)
-![chips](https://ohmyposh.dev/assets/images/chips-df53239162ce3a9adb2fdee9847920a8.png)
+![chips](https://ohmyposh.dev/assets/images/chips-f71c507a333e5be596e9c38ee600b978.png)
 
 - [clean-detailed](https://ohmyposh.dev/docs/themes#clean-detailed)
-![clean-detailed](https://ohmyposh.dev/assets/images/clean-detailed-29e022b1e550116a8773b774e35e597e.png)
+![clean-detailed](https://ohmyposh.dev/assets/images/clean-detailed-a734185f883ccd73713bbf826e9636ff.png)
 
 - [cobalt2](https://ohmyposh.dev/docs/themes#cobalt2)
 ![cobalt2](https://ohmyposh.dev/assets/images/cobalt2-8e6b77eeb233b8fdaf32964fc185ad34.png)
 
 - [dracula](https://ohmyposh.dev/docs/themes#dracula)
-![dracula](https://ohmyposh.dev/assets/images/dracula-1f0e0da0fa27161230a9aaaab0a4adb1.png)
+![dracula](https://ohmyposh.dev/assets/images/dracula-d55ea32962846aee00f004220fc4490d.png)
 
 - [easy-term](https://ohmyposh.dev/docs/themes#easy-term)
-![easy-term](https://ohmyposh.dev/assets/images/easy-term-8cee7e254318b9cf5943a73c43a7d57a.png)
+![easy-term](https://ohmyposh.dev/assets/images/easy-term-ebb79f006ebb2f7f18d52ebe6e268426.png)
 
 - [emodipt](https://ohmyposh.dev/docs/themes#emodipt)
-![emodipt](https://ohmyposh.dev/assets/images/emodipt-a0d4dee73ff102c08c4a90d11b41e4a8.png)
+![emodipt](https://ohmyposh.dev/assets/images/emodipt-454c672a65575e770777a000eb9892bd.png)
 
 - [sim-web](https://ohmyposh.dev/docs/themes#sim-web)
 ![sim-web](https://ohmyposh.dev/assets/images/sim-web-2414d65fb11b1c93ec563e95eac4b5dd.png)
