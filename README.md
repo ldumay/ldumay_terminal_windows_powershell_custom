@@ -115,7 +115,7 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 brew update && brew upgrade && exec zsh
 ```
 
-### 2.3 - Configuration de `.zshrc` - [Haut de page](#top) <a name="2-3"></a>
+### 2.3 - Configuration de **.zshrc** - [Haut de page](#top) <a name="2-3"></a>
 
 Ajoutez ce qui suit à `~/.zshrc` :
 
@@ -140,52 +140,52 @@ brew update && brew upgrade && exec zsh
 Quelques sympa :
 
 - [blue-owl](https://ohmyposh.dev/docs/themes#blue-owl)
-![blue-owl](_img/blue-owl.png)
+![blue-owl](_img/themes/blue-owl.png)
 
 - [blueish](https://ohmyposh.dev/docs/themes#blueish)
-![blueish](_img/blueish.png)
+![blueish](_img/themes/blueish.png)
 
 - [bubbles](https://ohmyposh.dev/docs/themes#bubbles)
-![bubbles](_img/bubbles.png)
+![bubbles](_img/themes/bubbles.png)
 
 - [bubblesextra](https://ohmyposh.dev/docs/themes#bubblesextra)
-![bubblesextra](_img/bubblesextra.png)
+![bubblesextra](_img/themes/bubblesextra.png)
 
 - [bubblesline](https://ohmyposh.dev/docs/themes#bubblesline)
-![bubblesline](_img/bubblesline.png)
+![bubblesline](_img/themes/bubblesline.png)
 
 - [catppuccin](https://ohmyposh.dev/docs/themes#catppuccin)
-![catppuccin](_img/catppuccin.png)
+![catppuccin](_img/themes/catppuccin.png)
 
 - [cert](https://ohmyposh.dev/docs/themes#cert)
-![cert](_img/cert.png)
+![cert](_img/themes/cert.png)
 
 - [chips](https://ohmyposh.dev/docs/themes#chips)
-![chips](_img/chips.png)
+![chips](_img/themes/chips.png)
 
 - [clean-detailed](https://ohmyposh.dev/docs/themes#clean-detailed)
-![clean-detailed](_img/clean-detailed.png)
+![clean-detailed](_img/themes/clean-detailed.png)
 
 - [cobalt2](https://ohmyposh.dev/docs/themes#cobalt2)
-![cobalt2](_img/cobalt2.png)
+![cobalt2](_img/themes/cobalt2.png)
 
 - [dracula](https://ohmyposh.dev/docs/themes#dracula)
-![dracula](_img/dracula.png)
+![dracula](_img/themes/dracula.png)
 
 - [easy-term](https://ohmyposh.dev/docs/themes#easy-term)
-![easy-term](_img/easy-term.png)
+![easy-term](_img/themes/easy-term.png)
 
 - [emodipt-extend](https://ohmyposh.dev/docs/themes#emodipt-extend)
-![emodipt-extend](_img/emodipt-extend.png)
+![emodipt-extend](_img/themes/emodipt-extend.png)
 
 - [emodipt](https://ohmyposh.dev/docs/themes#emodipt)
-![emodipt](_img/emodipt.png)
+![emodipt](_img/themes/emodipt.png)
 
 - [jandedobbeleer](https://ohmyposh.dev/docs/themes#jandedobbeleer)
-![jandedobbeleer](_img/jandedobbeleer.png)
+![jandedobbeleer](_img/themes/jandedobbeleer.png)
 
 - [the-unnamed](https://ohmyposh.dev/docs/themes#the-unnamed)
-![the-unnamed](_img/the-unnamed.png)
+![the-unnamed](_img/themes/the-unnamed.png)
 
 Liste de thèmes [ici](https://ohmyposh.dev/docs/themes).
 
