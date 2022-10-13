@@ -1,12 +1,32 @@
-# LDumay - Personnaliser le Powershell sur Windows ou le Terminal sur Mac OS
+# LDumay - Personnaliser le Powershell sur Windows ou le Terminal sur Mac OS <a name="top"></a>
  
-### 1 - Oh My Posh pour Windows
+Sources :
 
-Source [YouTube - Make Windows PowerShell look Awesome with Themes! | Using Oh My Posh]
+- Site officiel : [https://ohmyposh.dev/](https://ohmyposh.dev/)
+- [Guide Windows](https://ohmyposh.dev/docs/installation/windows)
+- [Source](https://ohmyposh.dev/docs/installation/macos)
+- [YouTube - Make Windows PowerShell look Awesome with Themes! | Using Oh My Posh]
 (https://www.youtube.com/watch?v=FvHNfpH8fxM)
-Site officiel : [https://ohmyposh.dev/](https://ohmyposh.dev/)
 
-#### 1.1 - Installation des Fonts
+## Sommaire
+
+- [1 - Oh My Posh pour Windows](#1)
+    - [1.1 - Installation des Fonts](#1-1)
+    - [1.2 - Installation de Oh My Posh](#1-2)
+    - [1.3 - Vérifier la présences des thèmes](#1-3)
+    - [1.4 - Préparer le lien avec le thème](#1-4)
+    - [1.5 - Activer un thème](#1-5)
+    - [1.6 - Installer de nouveau thèmes](#1-6)
+- [2 - Oh My Posh pour Mac OS](#2)
+    - [2.1 - Télécharger iTerm2](#2-1)
+    - [2.2 - Intallation](#2-2)
+    - [2.3 - Configuration de `.zshrc](#2-3)
+    - [2.4 - Désintallation](#2-4)
+- [3 - Quelques thèmes sympa en exemple](#3)
+
+## 1 - Oh My Posh pour Windows - [Haut de page](#top) <a name="1"></a>
+
+### 1.1 - Installation des Fonts - [Haut de page](#top) <a name="1-1"></a>
 
 Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)
 
@@ -14,7 +34,7 @@ Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download
 
 Puis configure la police du terminal pour qu'il utilise la police **Meslo LGL NF**.
 
-#### 1.2 - Installation de Oh My Posh 
+### 1.2 - Installation de Oh My Posh <a name="1-2"></a>
 
 Ouvrez une invite PowerShell et exécutez la commande suivante :
 
@@ -29,7 +49,7 @@ Cela installe quelques éléments :
 
 Pour que le `PATH` rechargement soit effectué, un redémarrage de votre terminal est conseillé.
 
-#### 1.3 - Vérifier la présences des thèmes
+### 1.3 - Vérifier la présences des thèmes <a name="1-3"></a>
 
 ```
 ~\AppData\Local\Programs\oh-my-posh\themes
@@ -39,7 +59,7 @@ OU
 C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes
 ```
 
-#### 1.4 - Préparer le lien avec le thème
+### 1.4 - Préparer le lien avec le thème <a name="1-4"></a>
 
 ```
 ~\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json
@@ -49,7 +69,7 @@ OU
 C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json
 ```
 
-#### 1.5 - Activer un thème
+### 1.5 - Activer un thème <a name="1-5"></a>
 
 Ouvrir le `$PROFILE` de votre terminal :
 
@@ -67,9 +87,9 @@ Sauvegarder et fermer **notepad**.
 
 Relancer ensuite le terminal.
 
-Et voilà ;)
+Et voilà, maintenant kiffer 😎.
 
-#### 1.6 - Installer de nouveau thèmes
+### 1.6 - Installer de nouveau thèmes <a name="1-6"></a>
 
 Pour ajouter un thème, faite la commande `oh-my-posh font install <theme>`.
 
@@ -79,53 +99,43 @@ Exemple :
 oh-my-posh font install jandedobbeleer
 ```
 
-### 2 - Oh My Zsh pour Mac OS [non valide encore]
+## 2 - Oh My Posh pour Mac OS <a name="2"></a>
 
-- Source [YouTube - Customize your terminal on MacOS like a pro 🔥 | oh-my-zsh | powerlevel10k | iTerm2](https://www.youtube.com/watch?v=Y9eBohzBcJ8)
+### 2.1 - Télécharger iTerm2 <a name="2-1"></a>
 
-#### 1.1 - Installation des Fonts
+Comme le terminal standard a des problèmes pour afficher correctement les caractères ANSI, nous vous conseillons d'utiliser iTerm2 ou tout autre terminal macOS moderne prenant en charge les caractères ANSI.
 
-Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)
+- [iTerm2](https://iterm2.com/)
 
-> Si non, aller sur la partie Fonts de [Oh My Posh](https://ohmyposh.dev/docs/installation/fonts)
-
-Puis configure la police du terminal pour qu'il utilise la police **Meslo LGL NF**.
-
-#### 1.2 - Installation de Oh My Zsh
-
-Ouvrez une invite Termnial et exécutez les commandes suivantes :
+### 2.2 - Installation <a name="2-2"></a>
 
 ```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install oh-my-posh
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew update && brew upgrade && exec zsh
 ```
 
-#### 2.2 - Installer un thème
+### 2.3 - Configuration de `.zshrc` <a name="2-3"></a>
 
-Liste [ici](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
-
-#### 2.3 - Désinstaller Oh My Zsh
+Ajoutez ce qui suit à `~/.zshrc` :
 
 ```
-$ sudo chmod 777 ~/.oh-my-zsh/tools/uninstall.sh
-$ ~/.oh-my-zsh/tools/uninstall.sh
+if [ $TERM_PROGRAM != "Apple_Terminal" ]; then
+  eval "$(oh-my-posh init zsh)"
+fi
 ```
 
+Et voilà, maintenant kiffer 😎.
 
-Et voilà ;)
+### 2.4 - Désintallation <a name="2-4"></a>
 
+```
+brew remove oh-my-posh                                                                                  in zsh at 16:53:08
+brew remove jandedobbeleer/oh-my-posh/oh-my-posh
+brew update && brew upgrade && exec zsh
+```
 
-
-
-
-
-
-
-
-
-
-
-
-#### 2.6 - Quelques thèmes sympa
+### 3 - Quelques thèmes sympa en exemple <a name="3"></a>
 
 Quelques sympa :
 
