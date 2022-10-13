@@ -1,6 +1,6 @@
-# LDumay - Custom Terminal & Powershell on Windows (and Mac OS - en cours)
+# LDumay - Personnaliser le Powershell sur Windows ou le Terminal sur Mac OS
  
-### 1 - Oh My Posh
+### 1 - Oh My Posh pour Windows
 
 Source [YouTube - Make Windows PowerShell look Awesome with Themes! | Using Oh My Posh]
 (https://www.youtube.com/watch?v=FvHNfpH8fxM)
@@ -14,11 +14,7 @@ Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download
 
 Puis configure la police du terminal pour qu'il utilise la police **Meslo LGL NF**.
 
-#### 1.1 - Pré-requis :
-
-- Scoop
-
-#### 1.2 - Installation de Oh My Posh sur Windows
+#### 1.2 - Installation de Oh My Posh 
 
 Ouvrez une invite PowerShell et exécutez la commande suivante :
 
@@ -46,14 +42,14 @@ C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes
 #### 1.4 - Préparer le lien avec le thème
 
 ```
-~\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json
+~\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json
 
 OU
 
-C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes\sim-web.omp.json
+C:\Users\<user>\AppData\Local\Programs\oh-my-posh\themes\jandedobbeleer.omp.json
 ```
 
-#### 1.4 - Activer un thème
+#### 1.5 - Activer un thème
 
 Ouvrir le `$PROFILE` de votre terminal :
 
@@ -80,10 +76,56 @@ Pour ajouter un thème, faite la commande `oh-my-posh font install <theme>`.
 Exemple :
 
 ```
-oh-my-posh font install sim-web
+oh-my-posh font install jandedobbeleer
 ```
 
-#### 1.6 - Quelques thèmes sympa
+### 2 - Oh My Zsh pour Mac OS
+
+- Source [YouTube - Customize your terminal on MacOS like a pro 🔥 | oh-my-zsh | powerlevel10k | iTerm2](https://www.youtube.com/watch?v=Y9eBohzBcJ8)
+
+#### 1.1 - Installation des Fonts
+
+Téléchargeable [ici](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip)
+
+> Si non, aller sur la partie Fonts de [Oh My Posh](https://ohmyposh.dev/docs/installation/fonts)
+
+Puis configure la police du terminal pour qu'il utilise la police **Meslo LGL NF**.
+
+#### 1.2 - Installation de Oh My Zsh
+
+Ouvrez une invite Termnial et exécutez les commandes suivantes :
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### 2.2 - Installer un thème
+
+Liste [ici](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+
+#### 2.3 - Désinstaller Oh My Zsh
+
+```
+$ sudo chmod 777 ~/.oh-my-zsh/tools/uninstall.sh
+$ ~/.oh-my-zsh/tools/uninstall.sh
+```
+
+
+Et voilà ;)
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 2.6 - Quelques thèmes sympa
 
 Quelques sympa :
 
@@ -126,8 +168,8 @@ Quelques sympa :
 - [emodipt](https://ohmyposh.dev/docs/themes#emodipt)
 ![emodipt](https://ohmyposh.dev/assets/images/emodipt-454c672a65575e770777a000eb9892bd.png)
 
-- [sim-web](https://ohmyposh.dev/docs/themes#sim-web)
-![sim-web](https://ohmyposh.dev/assets/images/sim-web-2414d65fb11b1c93ec563e95eac4b5dd.png)
+- [jandedobbeleer](https://ohmyposh.dev/docs/themes#jandedobbeleer)
+![jandedobbeleer](https://ohmyposh.dev/assets/images/jandedobbeleer-2414d65fb11b1c93ec563e95eac4b5dd.png)
 
 - [the-unnamed](https://ohmyposh.dev/docs/themes#the-unnamed)
 ![the-unnamed](https://ohmyposh.dev/assets/images/the-unnamed-51c8453c6f57a23a4bd89e67c0f922e9.png)
