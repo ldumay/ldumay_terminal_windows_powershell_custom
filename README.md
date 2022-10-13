@@ -79,7 +79,7 @@ Exemple :
 oh-my-posh font install jandedobbeleer
 ```
 
-### 2 - Oh My Zsh pour Mac OS
+### 2 - Oh My Zsh pour Mac OS [non valide encore]
 
 - Source [YouTube - Customize your terminal on MacOS like a pro 🔥 | oh-my-zsh | powerlevel10k | iTerm2](https://www.youtube.com/watch?v=Y9eBohzBcJ8)
 
@@ -130,49 +130,52 @@ Et voilà ;)
 Quelques sympa :
 
 - [blue-owl](https://ohmyposh.dev/docs/themes#blue-owl)
-![blue-owl](https://ohmyposh.dev/assets/images/blue-owl-e9cb9ea32715f6a4e53f9a4f102680eb.png)
+![blue-owl](_img/blue-owl.png)
 
 - [blueish](https://ohmyposh.dev/docs/themes#blueish)
-![blueish](https://ohmyposh.dev/assets/images/blueish-4e0990e623244c530361428348a4b8e0.png)
+![blueish](_img/blueish.png)
 
 - [bubbles](https://ohmyposh.dev/docs/themes#bubbles)
-![bubbles](https://ohmyposh.dev/assets/images/bubbles-ba044855a85c98c6026a68243fc389ca.png)
+![bubbles](_img/bubbles.png)
 
 - [bubblesextra](https://ohmyposh.dev/docs/themes#bubblesextra)
-![bubblesextra](https://ohmyposh.dev/assets/images/bubblesextra-500f0c6708d64349cac09a9e72b5e96e.png)
+![bubblesextra](_img/bubblesextra.png)
 
 - [bubblesline](https://ohmyposh.dev/docs/themes#bubblesline)
-![bubblesline](https://ohmyposh.dev/assets/images/bubblesline-2db10ee8720ffc8e367539c3626d0a4c.png)
+![bubblesline](_img/bubblesline.png)
 
 - [catppuccin](https://ohmyposh.dev/docs/themes#catppuccin)
-![catppuccin](https://ohmyposh.dev/assets/images/catppuccin-3ff38a555307bb444a79ac77377e9b86.png)
+![catppuccin](_img/catppuccin.png)
 
 - [cert](https://ohmyposh.dev/docs/themes#cert)
-![cert](https://ohmyposh.dev/assets/images/cert-7019406225d324121e953715adc408d4.png)
+![cert](_img/cert.png)
 
 - [chips](https://ohmyposh.dev/docs/themes#chips)
-![chips](https://ohmyposh.dev/assets/images/chips-f71c507a333e5be596e9c38ee600b978.png)
+![chips](_img/chips.png)
 
 - [clean-detailed](https://ohmyposh.dev/docs/themes#clean-detailed)
-![clean-detailed](https://ohmyposh.dev/assets/images/clean-detailed-a734185f883ccd73713bbf826e9636ff.png)
+![clean-detailed](_img/clean-detailed.png)
 
 - [cobalt2](https://ohmyposh.dev/docs/themes#cobalt2)
-![cobalt2](https://ohmyposh.dev/assets/images/cobalt2-8e6b77eeb233b8fdaf32964fc185ad34.png)
+![cobalt2](_img/cobalt2.png)
 
 - [dracula](https://ohmyposh.dev/docs/themes#dracula)
-![dracula](https://ohmyposh.dev/assets/images/dracula-d55ea32962846aee00f004220fc4490d.png)
+![dracula](_img/dracula.png)
 
 - [easy-term](https://ohmyposh.dev/docs/themes#easy-term)
-![easy-term](https://ohmyposh.dev/assets/images/easy-term-ebb79f006ebb2f7f18d52ebe6e268426.png)
+![easy-term](_img/easy-term.png)
+
+- [emodipt-extend](https://ohmyposh.dev/docs/themes#emodipt-extend)
+![emodipt-extend](_img/emodipt-extend.png)
 
 - [emodipt](https://ohmyposh.dev/docs/themes#emodipt)
-![emodipt](https://ohmyposh.dev/assets/images/emodipt-454c672a65575e770777a000eb9892bd.png)
+![emodipt](_img/emodipt.png)
 
 - [jandedobbeleer](https://ohmyposh.dev/docs/themes#jandedobbeleer)
-![jandedobbeleer](https://ohmyposh.dev/assets/images/jandedobbeleer-2414d65fb11b1c93ec563e95eac4b5dd.png)
+![jandedobbeleer](_img/jandedobbeleer.png)
 
 - [the-unnamed](https://ohmyposh.dev/docs/themes#the-unnamed)
-![the-unnamed](https://ohmyposh.dev/assets/images/the-unnamed-51c8453c6f57a23a4bd89e67c0f922e9.png)
+![the-unnamed](_img/the-unnamed.png)
 
 Liste de thèmes [ici](https://ohmyposh.dev/docs/themes).
 
